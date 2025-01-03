@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Directory for temporary files
+temp/
+tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Frontend (React)
+frontend/build/
+frontend/node_modules/
+
+# Testing
+coverage/
+
+# Config files
+.vscode/
+.idea/
+*.iml
+
+# Backend
+backend/.env
+backend/build/
+backend/node_modules/
+
+# Cache files
+*.cache
+
+# Heroku specific files
+*.env.production
+.heroku/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+
+# VS Code
+.vscode/
